@@ -32,8 +32,8 @@ Challenge accepted, performance optimized!
 
 ### Other
 - Similar optimizations that were applied to `index.html` in root folder also applied to the other linked html pages.
-<!-- - Only one request of Google Fonts (root `index.html`) kept as these will automatically be cached for other page views. -->
 - Although unrelated to optimization, other small changes were made to bring the pages up to best standards, improve semantics, and achieve a rating of 100% for both Performance and Accessibility in Lighthouse 2.0.0 audit for at least `index.html`.
+<!-- NOTE: If PageSpeed requirements were less strict, a single Google Fonts request would be kept in root `index.html`, as these would then be automatically be cached for other page views. -->
 
 
 ##### #perfmatters and lovin' it.
