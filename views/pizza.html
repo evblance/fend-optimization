@@ -41,8 +41,8 @@
     <div id="callToAction" class="row">
       <div class="col-md-4">
         <picture>
-          <source media="(max-width: 991px)" srcset="images/pizzeria-large.jpg 800w">
-          <source srcset="images/pizzeria-small.jpg 400w">
+          <source media="(max-width: 991px)" srcset="images/pizzeria-large.jpg">
+          <source srcset="images/pizzeria-small.jpg">
           <img src="images/pizzeria-small.jpg" class="img-responsive" alt="Image of Paisano's Pizzeria in Hong Kong"> <!-- Image credit to: http://commons.wikimedia.org/wiki/File:HK_TST_night_%E5%98%89%E8%98%AD%E9%81%93_Granville_Road_restaurant_Paisano's_Pizzeria_pizza_Dec-2013.JPG -->
         </picture>
 
@@ -107,13 +107,13 @@
           </div>
           <div id="pizzaSize" class="col-md-6">Medium</div>
           <div class="col-md-12">
-            <input id="sizeSlider" type="range" min="1" max="3" value="2" step="1" onchange="resizePizzas(this.value)"></input>
+            <input id="sizeSlider" type="range" min="1" max="3" value="2" step="1" onchange="resizePizzas(this.value)">
           </div>
         </div>
         <div id="randomPizzas" class="row">
           <div id="pizza0" class="randomPizzaContainer" style="width:33.33%; height: 325px;">
             <div style="width:35%">
-              <img src="images/pizza.png" class="img-responsive">
+              <img src="images/pizza.png" class="img-responsive" alt="image of a generic pizza">
             </div>
             <div style="width:65%">
               <h4>The Udacity Special</h4>
@@ -130,7 +130,7 @@
           </div>
           <div id="pizza1" class="randomPizzaContainer" style="width:33.33%; height: 325px;">
             <div style="width:35%">
-              <img src="images/pizza.png" class="img-responsive">
+              <img src="images/pizza.png" class="img-responsive" alt="image of a generic pizza">
             </div>
             <div style="width:65%">
               <h4>The Cameron Special</h4>
@@ -149,5 +149,4 @@
   <script type="text/javascript" src="js/main.js"></script>
 </body>
 
-</html>
 </html>
