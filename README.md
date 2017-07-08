@@ -14,7 +14,7 @@ Challenge accepted, performance optimized!
 - Resized, reduced quality (85%), changed chroma to 4:2:0 and discarded EXIF data on `pizzeria.jpg` to give `pizzeria-thumb.jpg`.
 - Reduced quality (85%), changed chroma to 4:2:0 and discarded EXIF data on `profilepic.jpg`.
 - Reduced number of critical resource requests by using a resized local image of `mobilewebdev.jpg` -> `mobilewebdev-thumb.jpg` instead of `src`'ing one of these monsters: https://lh6.ggpht.com/f_0W8h__3G99CWTjnMjD8BUKm7yp2-wJyApLtTwFoFtlal2ULf_JgHIsOQq2NiYfKOdMlXlMHDKNo5XVZLs=s100
-<!-- - Removed Google Fonts request -->
+- Removed Google Fonts request
 - Inlined base and mobile styles from `css/style.css` into `index.html`.
 - Eliminated Google Analytics code (sorry Paul...)
 - Moved `perfmatters.js` script request to end of html `body`.
@@ -32,8 +32,8 @@ Challenge accepted, performance optimized!
 
 ### Other
 - Similar optimizations that were applied to `index.html` in root folder also applied to the other linked html pages.
-- Only one request of Google Fonts (root `index.html`) kept as these will automatically be cached for other page views.
-- Although unrelated to optimization, other small changes were made to bring the pages up to best standards and achieve a rating of 100% for both Performance and Accessibility in Lighthouse 2.0.0 audit for at least `index.html`.
+<!-- - Only one request of Google Fonts (root `index.html`) kept as these will automatically be cached for other page views. -->
+- Although unrelated to optimization, other small changes were made to bring the pages up to best standards, improve semantics, and achieve a rating of 100% for both Performance and Accessibility in Lighthouse 2.0.0 audit for at least `index.html`.
 
 
 ##### #perfmatters and lovin' it.
