@@ -9,7 +9,7 @@ Challenge accepted, performance optimized!
 
 ## List of optimizations
 
-### Optimizations to `index.html` to achieve a PageSpeed score > 90 for Mobile and Desktop (live test using this [link] (https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fevblance.github.io%2Ffend-optimization%2F&tab=mobile))
+### Optimizations to `index.html` to achieve a PageSpeed score > 90 for Mobile and Desktop (live test using this [link](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fevblance.github.io%2Ffend-optimization%2F&tab=mobile))
 - `media=print` attribute added to `print.css` head link.
 - Resized, reduced quality (85%), changed chroma to 4:2:0 and discarded EXIF data on `pizzeria.jpg` to give `pizzeria-thumb.jpg`.
 - Reduced quality (85%), changed chroma to 4:2:0 and discarded EXIF data on `profilepic.jpg`.
