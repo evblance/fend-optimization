@@ -11,12 +11,11 @@ Challenge accepted, performance optimized!
 
 ### Optimizations to `index.html` to achive a PageSpeed score < 90 (<X>)
 - `media=print` attribute added to `print.css` head link.
-- Put portrait mobile styles from `style.css` into a new file `mobile.css` and linked with `media` attribute of `(max-width: 480px)`.
 - Resized, reduced quality (85%), changed chroma to 4:2:0 and trashed EXIF data on `pizzeria.jpg` to give `pizzeria-thumb.jpg`.
 - Reduced quality (85%), changed chroma to 4:2:0 and trashed EXIF data on `profilepic.jpg`.
 - Reduced number of critical resource requests by using a resized local image of `mobilewebdev.jpg` -> `mobilewebdev-thumb.jpg` instead of `src`'ing one of these monsters: https://lh6.ggpht.com/f_0W8h__3G99CWTjnMjD8BUKm7yp2-wJyApLtTwFoFtlal2ULf_JgHIsOQq2NiYfKOdMlXlMHDKNo5XVZLs=s100
 - Removed Google Fonts request
-- Inlined base styles from `css/style.css` into `index.html`.
+- Inlined base and mobile styles from `css/style.css` into `index.html`.
 - Eliminated Google Analytics code (sorry Paul...)
 - Moved `perfmatters.js` script request to end of html `body`.
 
