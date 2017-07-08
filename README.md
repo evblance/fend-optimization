@@ -25,10 +25,10 @@ Challenge accepted, performance optimized!
  -  `pizzeria.jpg`-src'ing `img` tag replaced by `picture` and `srcset`s using reduced-size and 85% quality images.
 
 #### 2. `main.js`
- - Wasteful `determineDx` renamed to `determineWidth` and simplified down to only the `switch` statement to return a percentage integer.
- - The new width of the pizza is determined just once before the for-loop of `changePizzaSizes` by `var newwidth = determineWidth(size) + '%';`.
+ - Wasteful `determineDx` function renamed to `determineWidth` and simplified down to only the `switch` statement to return a percentage integer.
+ - The new width of the pizza is determined just once before the for-loop of `changePizzaSizes` by `var newWidth = determineWidth(size) + '%';`.
  - Call to `updatePositions` from window scroll listener wrapped in a `requestAnimationFrame`. Complementary call to self using `requestAnimationFrame` added to end of `updatePositions`.
- - Insane layout thrashing via looped querying of `document.body.scrollTop` prevented by moving this call to a single variable assignment outside for-loop (`scrollToTop`).
+ - Insane layout thrashing via looped querying of `document.body.scrollTop` prevented by moving it to a single variable assignment (`scrollToTop`) outside for-loop.
 
 ### Other
 - Similar optimizations that were applied to `index.html` in root folder also applied to the other linked html pages.
