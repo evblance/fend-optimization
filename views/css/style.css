@@ -26,7 +26,13 @@ form {
 }
 
 .mover {
+  /* NOTE: Added backface-visibility key to enable hardware acceleration */
+  backface-visibility: hidden;
   position: fixed;
+  /* NOTE: Added translateZ(0) transform to trigger GPU */
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
   width: 256px;
   z-index: -1;
 }
@@ -39,7 +45,7 @@ form {
 .randomPizzaContainer:after {
   content: "";
   display: table;
-  clear:both;
+  clear: both;
 }
 
  .container {
